@@ -1,2 +1,2 @@
-torch==2.1.2
-torchvision>=0.16
+torch>=2.0.0
+torchvision>=0.15
