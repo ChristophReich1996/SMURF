@@ -11,7 +11,7 @@ def main() -> None:
     # Load images
     image1: Tensor = torchvision.io.read_image("toy_data/reds/00000000.png", mode=torchvision.io.ImageReadMode.RGB)
     image2: Tensor = torchvision.io.read_image("toy_data/reds/00000004.png", mode=torchvision.io.ImageReadMode.RGB)
-    # Normalize image to the pixe range of [-1, 1]
+    # Normalize images to the pixe range of [-1, 1]
     image1 = 2.0 * (image1 / 255.0) - 1.0
     image2 = 2.0 * (image2 / 255.0) - 1.0
     # Init SMURF RAFT model
