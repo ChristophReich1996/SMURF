@@ -4,6 +4,12 @@ Unofficial **PyTorch** (inference only) reimplementation of the CVPR 2021
 paper [SMURF: Self-Teaching Multi-Frame Unsupervised RAFT with Full-Image Warping](https://arxiv.org/abs/2105.07014)
 by Austin Stone et al. (Google Research).
 
+<p align="center">
+  <img src="github/smurf_fig.png"  alt="1" width = 674px height = 306px >
+</p>
+
+Figure taken from [paper](https://arxiv.org/pdf/2105.07014.pdf).
+
 ## Reference
 
 ```bibtex
